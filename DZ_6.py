@@ -1,3 +1,63 @@
+#=============================== Задача 1 ============================
+# калькулятор в строке
+# все таки дописал. Без скобок, возможно с косяками, но вроде как приооритет операций
+# выполняется. 
+
+
+# string1 = '12+34-6*2/3'
+# string1 = '2*4-4/2+4'
+# string1 = '10/2+3*2-1+5'
+
+# num_list = []
+# num_str = ''
+# op_str = ''
+# i = 0
+# lenght = len(string1)
+# for el in string1:
+#     if el.isdigit():
+#         num_str += el
+#         i+=1
+#         if i == lenght:
+#             num_list.append(num_str)
+#     else:
+#         num_list.append(num_str)
+#         num_str = ''
+#         op_str += el
+#         i+=1
+
+# print(num_list)
+# print(op_str)
+
+# for el in op_str:
+#     if el == '*':
+#         operator = op_str.index('*')
+#         result = int(num_list[operator])*int(num_list[operator+1])
+#         num_list[operator] = result
+#         num_list.pop(operator+1)
+#         op_str = op_str.replace('*','',1)
+#     if el == '/':
+#         operator = op_str.index('/')
+#         result = int(num_list[operator])/int(num_list[operator+1])
+#         num_list[operator] = result
+#         num_list.pop(operator+1)
+#         op_str = op_str.replace('/','',1)
+        
+# for el in op_str:
+#     if el == '+':
+#         operator = op_str.index('+')
+#         result = int(num_list[operator])+int(num_list[operator+1])
+#         num_list[operator] = result
+#         num_list.pop(operator+1)
+#         op_str = op_str.replace('+','',1)
+#     if el == '-':
+#         operator = op_str.index('-')
+#         result = int(num_list[operator])-int(num_list[operator+1])
+#         num_list[operator] = result
+#         num_list.pop(operator+1)
+#         op_str = op_str.replace('-','',1)
+
+# print(f'{string1} = {result}')
+
 
 #=========================== задача2 ==============================
 
